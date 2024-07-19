@@ -1,0 +1,233 @@
+:root{
+    --bodycolor: #fff6eb;
+    --cardcolor:#F3E4D2;
+    --buttoncolor:#A6D0DD;
+    --connectcolor:#FF6969;
+}
+
+@font-face{
+    font-family: "myFont";
+    src: url(lack/Lack-Regular.otf);
+
+}
+
+.Connect{
+    background: var(--connectcolor);
+}
+h2{
+    font-family: "myFont" ;
+}
+.imageboder{
+        margin: 0px 19px 0px 7px;
+        border: 1px solid black;
+        border-radius: 50px;
+        height: 40px;
+        width: 40px;
+        /* text-align: center; */
+        padding: 5px 7px 9px 7px;
+    }
+body{
+   background: var(--bodycolor) !important;   
+   height: 100vh;
+   width: 100%;
+}
+.section{
+    background-image: url('image/imagebackground.svg');
+    height: 100vh;
+}
+
+h1{
+    font-family:"myFont";
+    font-weight: 300;
+}
+.form .form-control{
+    border-radius: 30px;
+
+}
+#transfer-amount{
+    background: var(--bodycolor);
+    border-radius: 50px;
+    height: 50px;
+}
+/* #transfer-amount img{
+    width: 15px !important;
+} */
+button{
+    height: 40px;
+    width: 147px;
+    border-radius: 30px !important;
+}
+.dropdown{
+    margin-bottom: 15px;
+}
+.btn{
+    width: 100%;
+}
+.btn , .btn1{
+    background: var(--bodycolor) !important;
+    border: 1px solid !important;
+}
+.dropdown-toggle{
+    display: block;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+}
+/* .dropdown-toggle span{
+    margin-right: 200px;
+} */
+ul{
+    width: 100%;
+    background: var(--cardcolor) !important;
+}
+
+.dropdown-item:hover{
+    background: var(--bodycolor) !important;
+}
+.step{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 24px;
+    /* margin-top: 40px; */
+    width: 100%;
+    background: var(--cardcolor);
+}
+.step h2{
+    font-size: 15px;
+}
+.dropdown-item:hover {
+    border-radius: 40px;
+    color: var(--bs-dropdown-link-hover-color);
+    background-color: var(--bs-dropdown-link-hover-bg);
+}
+.dropbutton{
+    width: 100%;
+    background: var(--bodycolor);
+    border: 1px solid;
+}
+.dropbutton img{
+    width: 15px;
+}
+.dropbutton1{
+    width: 100%;
+    background: var(--buttoncolor);
+    border: 1px solid;
+}
+.step1{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 18px;
+    /* margin-top: 40px; */
+    width: 90%;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 5px;
+    bottom: 387px;
+    left: 15px;
+    /* width: 30%; */
+    /* height: 100px;
+    margin-bottom: 20px; */
+}
+.circle1 {
+    width: 43px;
+    height: 43px;
+    background-color: #f06;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F3E4D2;
+  }
+  .col-auto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 40%;
+  }
+  
+  .circle1:before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url('image/boxicon.png'); /* Replace with your icon */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  /* .imageicon{
+    margin-right: 67%;
+  } */
+  /* .box{
+    margin: 10px;
+  } */
+  .box1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* margin: 10px; */
+    top: 392px;
+    border: 3px solid #fff6eb;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    background: var(--connectcolor);
+  }
+  .box1 img{
+    width: 20px;
+    transform: translate(61% , 37%);
+  }
+/* .circle {
+    width: 50px;
+    height: 50px;
+    background-color: #f36;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+} */
+
+.btn1{
+    /* height: 100%; */
+    width: 100%;
+    margin-bottom: 10px;
+} 
+.btn1 img{
+    width: 20px;
+}
+
+.w-100{
+    position: relative;
+}
+.dropdown2 {
+    position: absolute;
+    top: -4px;
+    right: 10px;
+}
+.dropdown2 .dropdown-toggle span{
+    margin-right: 0px;
+}
+
+.dropdown2 ul{
+  width: 10%;
+  /* left: 70%; */
+}
+.md{
+    /* margin-bottom: 1.5rem !important; */
+    margin-bottom: 68px;
+}
+#receive-on{
+    background: var(--bodycolor);
+    height: 50px;
+    border-radius: 50px;
+}
+.proceed{
+    background: var(--buttoncolor) !important;
+}
